@@ -14,8 +14,10 @@ export const globalStyle = css`
 
   html {
     font-size: 10px;
+    ::-webkit-scrollbar {
+      display: none;
+    }
   }
-
   html,
   body,
   #app,
