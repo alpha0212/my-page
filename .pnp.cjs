@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:7.21.0"],\
             ["@emotion/react", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:11.10.6"],\
             ["@emotion/styled", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:11.10.6"],\
+            ["@fullpage/react-fullpage", "npm:0.1.35"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:14.0.0"],\
             ["@types/jest", "npm:29.4.1"],\
@@ -329,6 +330,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@babel/core",\
             "@types/babel__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/polyfill", [\
+        ["npm:7.12.1", {\
+          "packageLocation": "./.yarn/cache/@babel-polyfill-npm-7.12.1-a393b8d870-3f59a9d85a.zip/node_modules/@babel/polyfill/",\
+          "packageDependencies": [\
+            ["@babel/polyfill", "npm:7.12.1"],\
+            ["core-js", "npm:2.6.12"],\
+            ["regenerator-runtime", "npm:0.13.11"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -860,6 +872,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-js-npm-8.36.0-1f52b8accd-b7d6b84b82.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.36.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fullpage/react-fullpage", [\
+        ["npm:0.1.35", {\
+          "packageLocation": "./.yarn/cache/@fullpage-react-fullpage-npm-0.1.35-03e10bfc89-3b2ee6c79c.zip/node_modules/@fullpage/react-fullpage/",\
+          "packageDependencies": [\
+            ["@fullpage/react-fullpage", "npm:0.1.35"],\
+            ["@babel/polyfill", "npm:7.12.1"],\
+            ["fullpage.js", "npm:4.0.18"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2236,6 +2259,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["core-js", [\
+        ["npm:2.6.12", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.12-0b93d77d31/node_modules/core-js/",\
+          "packageDependencies": [\
+            ["core-js", "npm:2.6.12"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cosmiconfig", [\
         ["npm:7.1.0", {\
           "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.1.0-13a5090bcd-c53bf7befc.zip/node_modules/cosmiconfig/",\
@@ -3290,6 +3322,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["node-gyp", "npm:9.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fullpage.js", [\
+        ["npm:4.0.18", {\
+          "packageLocation": "./.yarn/cache/fullpage.js-npm-4.0.18-2ffba4a2fd-11c48c62d8.zip/node_modules/fullpage.js/",\
+          "packageDependencies": [\
+            ["fullpage.js", "npm:4.0.18"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6011,6 +6052,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:7.21.0"],\
             ["@emotion/react", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:11.10.6"],\
             ["@emotion/styled", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:11.10.6"],\
+            ["@fullpage/react-fullpage", "npm:0.1.35"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:6c172b9184cc06763bfaa766b600aca06ceae358ac251bdadcaddc7af63ce4aaff36db33e6ff571c1069c44f2ef4cb255f6a6d71b49ede712c20e5cd276879c6#npm:14.0.0"],\
             ["@types/jest", "npm:29.4.1"],\
