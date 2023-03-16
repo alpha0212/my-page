@@ -81,4 +81,12 @@ export const pretendardFont = css`
     src: local('Pretendard Thin'), url('./woff2/Pretendard-Thin.woff2') format('woff2'),
       url('./woff/Pretendard-Thin.woff') format('woff');
   }
+
+  @font-face {
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-display: swap;
+    src: local('GothamBold'), url('./GothamBold.otf') format('otf'),
+      url('./GothamBold.otf') format('otf');
+  }
 `;
