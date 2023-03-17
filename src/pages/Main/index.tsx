@@ -1,13 +1,21 @@
 import React from 'react';
 
 import * as S from './styled';
-import { FirstSection, SecondSection } from '../../components';
+import { MyName, SecondSection, SubName } from '../../components';
 
 export const MainPage: React.FC = () => {
   return (
     <>
       <S.MainPageContainer>
-        <FirstSection />
+        <S.FirstSectionBackground>
+          <S.IntroduceMySelf>
+            <SubName SubMyName="I AM" />
+            <MyName text="Jun Hee" />
+            <S.ADescMargin>
+              <SubName SubMyName="A JUNIOR FE DEVELOPER" />
+            </S.ADescMargin>
+          </S.IntroduceMySelf>
+        </S.FirstSectionBackground>
         <SecondSection />
       </S.MainPageContainer>
     </>
